@@ -1,0 +1,17 @@
+{
+  "name": "telegram-otp-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that forwards OTP messages from API to Telegram group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "otp"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
